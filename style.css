@@ -1,0 +1,163 @@
+body {
+    background-image: linear-gradient(to right, #000, #434343);
+    margin: 0;
+    padding: 0;
+}
+
+/* NAVIGATION BAR */
+
+nav li {
+    list-style-type: none;
+}
+
+nav {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+}
+
+h1 {
+    color: white;
+    font-family: Edwardian;
+    font-weight: 100;
+    padding-left: 125px;
+    padding-top: 5px;
+    font-size: 48px;
+    line-height: 0;
+}
+
+
+.textNavbar ul a {
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.textNavbar ul {
+    display: flex;
+    padding-right: 100px;
+    justify-content: space-between;
+    padding-left: 100px;
+}
+
+.textNavbar li{
+    padding-right: 50px;
+    padding-top: 20px;
+    font-size: 18px;
+}
+
+.textNavbar a:hover {
+    color: #DD2235;
+    font-size: 20px;
+    transition: 250ms;
+}
+
+.searchBar {
+    padding-top: 20px;
+}
+
+.searchBar input[type=text] {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    border: 2px solid white;
+    padding: 10px;
+    margin-right: 30px;
+    background-color: transparent;
+    width: 500px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.searchBar input, select, textarea{
+    color: white;
+}
+
+.searchBar textarea:focus, input:focus {
+    color: white;
+    transition: 250ms;
+}
+
+.socmedNavbar img {
+    padding-top: 10px;
+    width: 40px;
+    height: auto;
+}
+
+.socmedNavbar ul {
+    display: flex;
+}
+
+.socmedNavbar li {
+    padding-left: 75px;
+}
+
+.socmedNavbar img:hover {
+    width: 50px;
+    height: auto;
+    transition: 250ms;
+}
+
+/* CALL TO ACTION */
+
+section {
+    display: flex;
+    padding-left: 100px;
+}
+
+#calltoAction {
+    justify-content: space-between;
+}
+
+
+#calltoAction h2 {
+    font-family: 'Edwardian';
+    color: white;
+    font-weight: 100;
+    font-size: 180px;
+    margin-bottom: 0;
+    padding-top: 100px;
+}
+
+#calltoAction h3 {
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: bold;
+    font-size: 50px;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 30px;
+    padding-left: 20px;
+}
+
+#tattoo {
+    color: #DD2235;
+}
+
+.bckgrnd-img {
+    width: 850px;
+    height: auto;
+    padding-top: 120px;
+}
+
+.mainPage-text a {
+    color: white;
+    text-decoration: none;
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 24px;
+    border-bottom: 3px solid white;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-weight: 100;
+}
+
+.mainPage-text a:hover {
+    color: #DD2235;
+    font-size: 26px;
+    transition: 200ms;
+}
+
+
+
+@font-face {
+    font-family: 'Edwardian';
+    src: url(Fonts/EdwardianScript-ITC.ttf)
+}
+
